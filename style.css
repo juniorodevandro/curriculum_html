@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .cabecalho {
+   float: left;
+   width: 100%;
+   text-align: center;   
+} 
+
+.barra-lateral {
+  background: rgb(199, 218, 255);
+  padding-top: 3%;
+  margin-top: 1%;
+  align-items: left;
+  text-align: left;
+  height: 85vh;
+  float: right;  
+}
+
+.ft-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.section {
+  padding: auto;
+  padding-top: 3%;
+  margin-top: 1%;
+  float: left;
+  height: 229px;
+  width: 66%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.experiencia {
+  
+}
+
+footer {
+  text-align: center;
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+li .icon {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  line-height: 50px;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 10px 5px rgb(143, 143, 143);
+}
+
+.icon:hover {
+  box-shadow: 5px 0px 10px rgb(143, 143, 143);
+}
+
+li:nth-child(1):hover .icon:hover {
+  color: white;
+  border-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+li:nth-child(2):hover .icon:hover {
+  color: white;
+  border-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #00aced;
+  position: relative;
+  bottom: 2px;
+}
+
+li:nth-child(3):hover .icon:hover {
+  color: white;
+  border-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #0e76a8;
+  position: relative;
+  bottom: 2px;
+}
+
+li:nth-child(4):hover .icon:hover {
+  color: white;
+  border-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #6441a5;
+  position: relative;
+  bottom: 2px;
+}
+
+li:nth-child(5):hover .icon:hover {
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #3b5998;
+  position: relative;
+  bottom: 2px;
+}
+
+li:nth-child(6):hover .icon:hover {
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #34af23;
+  position: relative;
+  bottom: 2px;
+}
