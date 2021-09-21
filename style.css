@@ -4,27 +4,42 @@
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+}
+
+.container {
+  background-color: rgb(204, 202, 202);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.sobre {
+  background-color: rgb(194, 194, 194);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 1rem;
 
 }
 
- .cabecalho {
-   float: left;
-   width: 100%;
-   text-align: center;   
-} 
-
-.barra-lateral {
-  background: rgb(199, 218, 255);
-  padding: 5px;
-  margin-top: 1%;
-  margin-bottom: 5px;
-  align-items: left;
-  text-align: center;
-  float: right;  
+.inf-cnt {
+  background-color: rgb(194, 194, 194);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-.barra-lateral > h2 {
-  text-align: center;
+.experiencia {
+  background-color: rgb(194, 194, 194);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ft-perfil {
@@ -33,33 +48,10 @@
   border-radius: 20px;
 }
 
-.section {
-  padding-top: 3%;
-  margin-top: 1%;
-  float: left;
-  width: 79%;
-  height: 159px;
-  background-color: #c6cdd0;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.experiencia {
-  padding: auto;
-  background-color: #d8cdcd;
-  padding-top: 3%;
-  margin-top: 1%;
-  float: left;
-  width: 79%;
-  height: 166px;
-  text-align: center;
-  padding-top: 5px; 
-}
-
 footer {
+  background-color: rgb(194, 194, 194);
   text-align: center;
   display: grid;
-  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -71,7 +63,7 @@ ul li {
 }
 
 li .icon {
-  background-color: white;
+  background-color: rgb(204, 202, 202);
   font-size: 30px;
   border-radius: 50%;
   line-height: 50px;
