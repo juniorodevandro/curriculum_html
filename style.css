@@ -1,7 +1,10 @@
+ @import url('https://fonts.googleaphttps://fonts.google.com/share?selection.family=Lato:ital,wght@1,300is.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lato', sans-serif;
+
 }
 
  .cabecalho {
@@ -12,12 +15,16 @@
 
 .barra-lateral {
   background: rgb(199, 218, 255);
-  padding-top: 3%;
+  padding: 5px;
   margin-top: 1%;
+  margin-bottom: 5px;
   align-items: left;
-  text-align: left;
-  height: 85vh;
+  text-align: center;
   float: right;  
+}
+
+.barra-lateral > h2 {
+  text-align: center;
 }
 
 .ft-perfil {
@@ -27,18 +34,26 @@
 }
 
 .section {
-  padding: auto;
   padding-top: 3%;
   margin-top: 1%;
   float: left;
-  height: 229px;
-  width: 66%;
+  width: 79%;
+  height: 159px;
+  background-color: #c6cdd0;
   text-align: center;
   padding-top: 5px;
 }
 
 .experiencia {
-  
+  padding: auto;
+  background-color: #d8cdcd;
+  padding-top: 3%;
+  margin-top: 1%;
+  float: left;
+  width: 79%;
+  height: 166px;
+  text-align: center;
+  padding-top: 5px; 
 }
 
 footer {
